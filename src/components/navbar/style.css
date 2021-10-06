@@ -1,0 +1,92 @@
+.navbar_nav{
+    background-color: rgba(255, 179, 11, 1);
+    width: 50%;
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    transition: step-start 2s;
+    box-shadow: inset 25rem 0px 0px 0px gold;
+    z-index: 1;
+}
+.li{
+    transition: all 2s;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    
+}
+.li:hover{
+    transition: all 1s;
+    border-left: 1px rgb(0, 0, 0) solid;
+    width: 50%;
+}
+.a, .a:hover, .a:focus, .a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+@media only screen and (max-width: 800px){
+    .navbar_nav{
+       background-color: rgba(255, 179, 11, 1);
+    width: 50%;
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    transition: step-start 2s;
+    box-shadow: inset 0rem 0px 0px 0px gold;
+    z-index: 1;
+    }
+    .navbar_nav:hover{
+        transition: 200ms ease-in-out;
+        box-shadow: inset 0rem 0px 0px 0px gold;
+    }
+}
+
+@media only screen and (max-width:1054px)and (min-width:568px){
+ 
+    .navbar_nav{
+    background-color: rgba(255, 179, 11, 1);
+    width: 50%;
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    transition: 1s linear ease-in-out;
+    z-index: 1;
+    animation: animations 1s linear ease-in-out;
+}
+   
+    @keyframes animations {
+        15%{
+            transition: 2s linear ease-in-out;
+            box-shadow: inset 5rem 0px 0px 0px rgba(255, 179, 11, 1);
+        }
+        45%{
+            transition: 3s linear ease-in-out;
+            box-shadow: inset 10rem 0px 0px 0px rgba(255, 179, 11, 1);
+        }
+        65%{
+            transition: 4s linear ease-in-out;
+            box-shadow: inset 15rem 0px 0px 0px rgba(255, 179, 11, 1);
+        }
+        85%
+        {
+            transition: 5s linear ease-in-out;
+            box-shadow: inset 20rem 0px 0px 0px rgba(255, 179, 11, 1);
+        }
+        100%{
+            transition: 6s linear ease-in-out;
+            box-shadow: inset 25rem 0px 0px 0px rgba(255, 179, 11, 1);
+        }
+    }
+    .navbar_nav:hover{
+        transition: 2s linear ease-in-out;
+        transition: 1s linear ease-in-out;
+        z-index: 1;
+        animation: animations 1s linear ease-in-out;
+    }
+}
