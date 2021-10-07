@@ -5,6 +5,7 @@ import 'bootstrap';
 import Headers from './components/Header/Header';
 import Logins from './components/Logins/Login';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
+import Course from './components/Course/Course';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
             <Switch>
               <Route exact path="/Login">
                 <Logins/>
+              </Route>
+              <Route exact path="/Course">
+                <Course/>
               </Route>
             </Switch>
       </Router>

@@ -12,7 +12,8 @@ function Header (){
                 <Portfolio />
                 <header className="header">
                         <div className="container headerText">
-                                <h2 className="text-center container text">
+                                <h2 className="text-center container text"
+                                data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-anchor="bottom-top">
                                         Welcome to <span className="span">Portfolio</span>
                                 </h2>
                         </div>

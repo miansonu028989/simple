@@ -12,7 +12,7 @@ function Portfolio(){
         return (
            <React.Fragment>
             <div className="">
-                    <nav data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="" data-aos-anchor="bottom-top"
+                    <nav data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-anchor="bottom-top"
                      className="navbar navbar-expand-xl navbar-light navbar_nav">
                         <div className="container-fluid ">
                             <a className="navbar-brand mr-3" href={'App'}>Navbar</a>
@@ -31,9 +31,11 @@ function Portfolio(){
                                     <a className="nav-link a" href="#Login">Login</a>
                                     </li>
                                     </Link>
+                                    <Link to="/Course">
                                     <li className="nav-item mr-3 li d-block justify-content-sm-center align-items-sm-center">
                                     <a className="nav-link a " href="#">Course</a>
                                     </li>
+                                    </Link>
                                 </ul>
                             </div>
                         </div>
