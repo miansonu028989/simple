@@ -20,7 +20,8 @@
 }
 .li:hover{
     transition: all 1s;
-    border-left: 1px rgb(0, 0, 0) solid;
+    border-left: 1px rgb(255, 255, 255) solid;
+    border-left-width: thick;
     width: 50%;
 }
 .a, .a:hover, .a:focus, .a:active {
@@ -30,7 +31,7 @@
 
 @media only screen and (max-width: 800px){
     .navbar_nav{
-       background-color: rgba(255, 179, 11, 1);
+    background-color: rgba(255, 179, 11, 1);
     width: 50%;
     position: relative;
     margin-left: 2rem;
@@ -89,4 +90,10 @@
         z-index: 1;
         animation: animations 1s linear ease-in-out;
     }
+    .li:hover{
+    transition: all 1s;
+    border-left: 1px rgb(255, 255, 255) solid;
+    border-left-width: thick;
+    width: 50%;
+}
 }

@@ -5,7 +5,7 @@ import 'bootstrap';
 import './style.css'
 import Aos from 'aos';
 import { Link,NavLink } from 'react-router-dom';
-function Portfolio(){
+function Portfolio(props){
             useEffect(()=>{
       Aos.init();
     },[])
@@ -31,9 +31,9 @@ function Portfolio(){
                                     <a className="nav-link a" href="#Login">Login</a>
                                     </li>
                                     </Link>
-                                    <Link to="/Course">
+                                    <Link to="/Course" style={{textDecoration:"none"}}>
                                     <li className="nav-item mr-3 li d-block justify-content-sm-center align-items-sm-center">
-                                    <a className="nav-link a " href="#">Course</a>
+                                    <a className="nav-link a " href={props.Course} >Course</a>
                                     </li>
                                     </Link>
                                 </ul>

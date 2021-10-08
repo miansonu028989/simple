@@ -1,3 +1,28 @@
+._Containers{
+    margin-top: 701px;
+    padding: 10px;
+    height: fit-content;
+    background-color: #F8892A;
+    margin-bottom: 10px;
+}
+.fonticon{
+    font-size: 60px;
+}
+.fonticon:hover{
+    font-size: 60px;
+    transform: scale(1.1);
+    background-color: #FDC15B;
+}
+
+
+
+
+
+
+
+
+
+
 .header {
     position: absolute;
     top: 0px;
